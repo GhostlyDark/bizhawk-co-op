@@ -49,7 +49,7 @@ Additional Options:
 
 ## Setup
 There are two different methods to install.
-* Run the PowerShell script, Download it here: [bizhawk-co-op.ps1](https://github.com/TestRunnerSRL/bizhawk-co-op/releases). I suggest placing it wherever you want to install Bizhawk. To install it, right-click it and select "Run with PowerShell". This will download & install a fresh copy of BizHawk with all the required files in their correct locations.  
+* Run the PowerShell script, Download it here: [bizhawk-co-op.ps1](https://github.com/GhostlyDark/bizhawk-co-op/releases/latest). I suggest placing it wherever you want to install Bizhawk. To install it, right-click it and select "Run with PowerShell". This will download & install a fresh copy of BizHawk with all the required files in their correct locations.  
 **OR**  
 * You can manually download the files, install and move them in the correct locations as described below.
 
@@ -59,7 +59,7 @@ There are two different methods to install.
 - The co-op script should be compatible for Bizhawk `1.12.0+` and `2.2.2+`
 * (2) [BizHawk prerequisite installer](https://github.com/TASVideos/BizHawk-Prereqs/releases/tag/2.4.8_1) (run this)
 * (3) [luasocket](http://files.luaforge.net/releases/luasocket/luasocket/luasocket-2.0.2/luasocket-2.0.2-lua-5.1.2-Win32-vc8.zip)
-* (4) [bizhawk-co-op](https://github.com/TestRunnerSRL/bizhawk-co-op/releases)  
+* (4) [bizhawk-co-op](https://github.com/GhostlyDark/bizhawk-co-op/releases/latest)  
 
 ### Directory structure
 
