@@ -38,7 +38,7 @@ $destination.Copyhere($zip_file.items())
 Remove-Item $filename
 
 #download bizhawk-co-op
-$url = "https://github.com/TestRunnerSRL/bizhawk-co-op/archive/dev.zip"
+$url = "https://github.com/GhostlyDark/bizhawk-co-op/archive/master.zip"
 $filename = "bizhawk-co-op.zip"
 Invoke-WebRequest -Uri $url -OutFile $filename
 #unzip
