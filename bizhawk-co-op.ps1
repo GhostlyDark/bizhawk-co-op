@@ -8,7 +8,7 @@ mkdir BizHawk
 
 #Download Bizhawk
 $url = "https://github.com/GhostlyDark/BizHawk/releases/download/2021-07-21/BizHawk_Developer-2021-07-21.zip"
-$filename = "bizhawk.zip"
+$filename = "BizHawk_Developer-2021-07-21.zip"
 Invoke-WebRequest -Uri $url -OutFile $filename
 #Unzip
 $zip_file = $shell_app.namespace((Get-Location).Path + "\$filename")
