@@ -7,8 +7,8 @@ mkdir BizHawk
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
 #Download Bizhawk
-$url = "https://github.com/GhostlyDark/BizHawk/releases/download/2021-07-21/BizHawk_Developer-2021-07-21.zip"
-$filename = "BizHawk_Developer-2021-07-21.zip"
+$url = "https://github.com/GhostlyDark/bizhawk-co-op/releases/download/2021-07-21/BizHawk_Developer-2021-07-21.zip"
+$filename = "bizhawk.zip"
 Invoke-WebRequest -Uri $url -OutFile $filename
 #Unzip
 $zip_file = $shell_app.namespace((Get-Location).Path + "\$filename")
